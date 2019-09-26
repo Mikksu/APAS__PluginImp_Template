@@ -31,6 +31,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="APAS__PluginContract, Version=1.0.3.7, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\APAS__PluginContract.1.0.3.7\lib\net461\APAS__PluginContract.dll</HintPath>
+    </Reference>
+    <Reference Include="APAS__SystemServiceContract, Version=1.0.4.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\APAS__SystemServiceContract.1.0.4.6\lib\net461\APAS__SystemServiceContract.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -54,22 +60,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\APAS__PluginContract\APAS__PluginContract\APAS__PluginContract.csproj">
-      <Project>{af6324cf-dc27-4496-bc7a-91f7ff674f05}</Project>
-      <Name>APAS__PluginContract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\APAS__SystemServiceContract\APAS__SystemServiceContract.csproj">
-      <Project>{8405e274-99f2-4175-9009-39e516649efc}</Project>
-      <Name>APAS__SystemServiceContract</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="AWGTesterView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dependencies\halcondotnet.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
