@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("APAS__PluginImp_IUVOT")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("APAS Plugin Template")]
+[assembly: AssemblyDescription("The template project of the plugin for APAS.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("APAS__PluginImp_IUVOT")]
+[assembly: AssemblyCompany("Irixi")]
+[assembly: AssemblyProduct("APAS Series")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

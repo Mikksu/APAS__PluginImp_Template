@@ -31,11 +31,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="APAS__PluginContract, Version=1.0.3.7, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\APAS__PluginContract.1.0.3.7\lib\net461\APAS__PluginContract.dll</HintPath>
+    <Reference Include="APAS__PluginContract, Version=1.0.5.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\APAS__PluginContract.1.0.5.10\lib\net461\APAS__PluginContract.dll</HintPath>
     </Reference>
-    <Reference Include="APAS__SystemServiceContract, Version=1.0.4.6, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\APAS__SystemServiceContract.1.0.4.6\lib\net461\APAS__SystemServiceContract.dll</HintPath>
+    <Reference Include="APAS__SystemServiceContract, Version=1.0.8.12, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\APAS__SystemServiceContract.1.0.8.12\lib\net461\APAS__SystemServiceContract.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -52,9 +52,9 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AWGTester.cs" />
-    <Compile Include="AWGTesterView.xaml.cs">
-      <DependentUpon>AWGTesterView.xaml</DependentUpon>
+    <Compile Include="PluginDemo.cs" />
+    <Compile Include="PluginDemoView.xaml.cs">
+      <DependentUpon>PluginDemoView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,11 +63,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="AWGTesterView.xaml">
+    <Page Include="PluginDemoView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Dependencies\halcondotnet.dll" />
   </ItemGroup>

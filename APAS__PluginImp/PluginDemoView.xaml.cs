@@ -18,9 +18,9 @@ namespace APAS__PluginImp_Template
     /// <summary>
     /// Interaction logic for AWGTesterView.xaml
     /// </summary>
-    public partial class AWGTesterView : UserControl
+    public partial class PluginDemoView : UserControl
     {
-        public AWGTesterView()
+        public PluginDemoView()
         {
             InitializeComponent();
         }
